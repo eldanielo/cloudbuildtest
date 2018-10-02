@@ -1,6 +1,4 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['pull', 'gcr.io/dev-dpfeller/latest-image']
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['app', 'deploy']
 timeout: "1600s"
